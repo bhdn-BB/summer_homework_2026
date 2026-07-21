@@ -4,6 +4,26 @@ This project matches local regions between Sentinel-2 observations of the same g
 
 The Kaggle archive results are included under `src/sentinel_matching/data/kaggle_benchmark/`. The benchmark below was run on one identical tiled scene pair with `B04,B03,B02`, tile size `1024`, overlap `128`, and the same geometric verification threshold. It is a fair within-pair comparison, but not yet a multi-scene generalization result.
 
+
+## Repository setup:
+
+### 1) Clone this repository:
+```angular2html
+git clone https://github.com/bhdn-BB/summer_homework_2026.git
+cd summer_homework_2026/src/sentinel_matching
+```
+### 2) Create and activate a virtual environment:
+```angular2html
+python -m venv .venv
+.venv\Scripts\activate
+```
+### 3) Install the required dependencies:
+```angular2html
+pip install -r requirements.txt
+```
+---
+
+
 ## Task
 
 For a pair of Sentinel-2 scenes, the system must identify corresponding image locations despite seasonal change, illumination differences, vegetation change, clouds, and land-cover change. The output is a set of local correspondences and an image visualization. A good solution has both many matches and a spatially coherent geometric transform.

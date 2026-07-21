@@ -2,6 +2,24 @@
 
 This task identifies mountain names in text. The solution includes Few-NERD data preparation, synthetic training augmentation, two supervised BERT loss variants, GLiNER and SpanMarker baselines, a deterministic catalog matcher, full-split evaluation, and single-sentence inference.
 
+## Repository setup:
+
+### 1) Clone this repository:
+```angular2html
+git clone https://github.com/bhdn-BB/summer_homework_2026.git
+cd summer_homework_2026/src/ner
+```
+### 2) Create and activate a virtual environment:
+```angular2html
+python -m venv .venv
+.venv\Scripts\activate
+```
+### 3) Install the required dependencies:
+```angular2html
+pip install -r requirements.txt
+```
+---
+
 ## LLM extraction via Groq Cloud
 
 `evaluation/llm_benchmark.py` is an asynchronous Groq Cloud API baseline for extracting a mountain from one or more short sentences. Requests are sent concurrently (`--workers`, default `2`) rather than sequentially. In the recorded manual run, a request with a completion cap of 100 tokens took about **0.6 s on average**; network latency and the selected model can change this result.
