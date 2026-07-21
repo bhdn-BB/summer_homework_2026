@@ -1,0 +1,2 @@
+method,keypoints_left,keypoints_right,candidate_matches,inlier_matches,inlier_ratio,inference_time_seconds,visualization
+loftr,35163,35163,35163,21141,0.6012285641156898,134.0339129040001,/kaggle/working/matcher_outputs/loftr/loftr_best_tile.png

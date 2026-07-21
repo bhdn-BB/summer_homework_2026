@@ -1,0 +1,2 @@
+method,keypoints_left,keypoints_right,candidate_matches,inlier_matches,inlier_ratio,inference_time_seconds,visualization
+superpoint_lightglue,345507,180317,8377,4298,0.5130715053121643,23.39754873600009,/kaggle/working/lightglue_output/superpoint_lightglue_best_tile.png

@@ -1,0 +1,5 @@
+source,method,keypoints_left,keypoints_right,candidate_matches,inlier_matches,inlier_ratio,inference_time_seconds,visualization
+loftr,loftr,35163,35163,35163,21141,0.6012285641156898,134.0339129040001,/kaggle/working/matcher_outputs/loftr/loftr_best_tile.png
+orb,orb,676000,360106,7352,647,0.0880032644178454,24.83776359000001,/kaggle/working/matcher_outputs/orb/orb_best_tile.png
+sift,sift,546408,149569,1261,404,0.3203806502775575,78.75320524799997,/kaggle/working/matcher_outputs/sift/sift_best_tile.png
+superpoint_lightglue,superpoint_lightglue,345507,180317,8377,4298,0.5130715053121643,23.39754873600009,/kaggle/working/lightglue_output/superpoint_lightglue_best_tile.png

@@ -1,0 +1,2 @@
+method,keypoints_left,keypoints_right,candidate_matches,inlier_matches,inlier_ratio,inference_time_seconds,visualization
+sift,546408,149569,1261,404,0.3203806502775575,78.75320524799997,/kaggle/working/matcher_outputs/sift/sift_best_tile.png
